@@ -15,12 +15,15 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "disliked": false,
+    "dislikes": 0
 }
 
 const createTuit = (req, res) => {
+    // const newTuit = req.body;
     const newTuit = {
-        ...req.body,
-        ...templateTuit
+        ...templateTuit,
+        ...req.body
     };
     newTuit._id = (new Date()).getTime()+'';    // add _id field as a time stamp
     tuits.push(newTuit);                        // append new tuit to tuits array
