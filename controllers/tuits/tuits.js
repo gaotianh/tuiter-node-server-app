@@ -60,6 +60,8 @@ export default [
         "replies": 333,
         "retuits": 222,
         "likes": 555,
+        "disliked": false,
+        "dislikes": 0,
         "handle": "@bestbuy",
         "tuit": "Black Friday is just a few weeks away, but Best Buy is getting a jump-start on the action with some early discounts. Head over to the retailer today and you'll find a slew of impressive early Black Friday deals--including steep price cuts on TVs, laptops, smart home gadgets, and more."
     }
