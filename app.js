@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 // mongoose.connect('mongodb://localhost:27017/tuiter');
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
-    || 'mongodb://localhost:27017/tuiter'
+    // || 'mongodb://localhost:27017/tuiter'
 mongoose.connect(CONNECTION_STRING);
 import express from 'express';
 import cors from 'cors'
